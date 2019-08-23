@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu Jul  4 16:49:12 2019 by Eclipse SUMO netconvert Version v1_2_0+0959-4eae248
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <osm-files value="./scenario/../data/map.osm"/>
+    </input>
+
+    <output>
+        <output-file value="./scenario/map.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="./scenario/map.ptstops.add.xml"/>
+        <ptline-output value="./scenario/map.ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <ptLine id="22377" name="Bus 1: Amphores =&gt; Gare routière Valbonne Sophia-Antipolis" line="1" type="bus" completeness="0.04">
+        <route edges="216266537#6"/>
+        <busStop id="25369279" name="Centre Commercial"/>
+    </ptLine>
+    <ptLine id="2867646" name="Bus 1: Gare Routière Valbonne Sophia-Antipolis =&gt; Amphores" line="1" type="bus" completeness="0.07">
+        <route edges="146282151 -216266537#6 -216266537#5 -216266537#4 -216266537#3 -216266537#2 -216266537#1 -216266537#0"/>
+        <busStop id="1595550267" name="Centre Commercial"/>
+        <busStop id="-2256178773" name="Chapelle des Combes"/>
+    </ptLine>
+    <ptLine id="2873236" name="Bus 1: Amphores =&gt; Foyer le Roc" line="1" type="bus" completeness="0.04">
+        <route edges="216266537#6"/>
+        <busStop id="25369279" name="Centre Commercial"/>
+    </ptLine>
+    <ptLine id="287394" name="Bus 9: Dugommier =&gt; Gare routière Valbonne Sophia-Antipolis" line="9" type="bus" completeness="0.07">
+        <route edges="216266537#6"/>
+        <busStop id="25369279" name="Centre Commercial"/>
+    </ptLine>
+    <ptLine id="3155962" name="Bus 1: Foyer le Roc =&gt; Amphores" line="1" type="bus" completeness="0.07">
+        <route edges="146282151 -216266537#6 -216266537#5 -216266537#4 -216266537#3 -216266537#2 -216266537#1 -216266537#0"/>
+        <busStop id="1595550267" name="Centre Commercial"/>
+        <busStop id="-2256178773" name="Chapelle des Combes"/>
+    </ptLine>
+</additional>

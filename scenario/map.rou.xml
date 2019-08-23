@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon May  6 19:06:57 2019 by Eclipse SUMO duarouter Version 1.0.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/alex/Desktop/proj/scenario/map.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/alex/Desktop/proj/scenario/map.rou.xml"/>
+        <alternatives-output value="/Users/alex/Desktop/proj/scenario/map.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+   
+   <vType id="car" vClass="passenger" length="5.5" accel="3.5" decel="2.2" sigma="1.0" maxSpeed="60"/>
+   <vType id="bus" vClass="bus" length="12.1" accel="3.5" decel="2.2" sigma="1.0" maxSpeed="50"/>
+   <vType id="motorcycle" vClass="motorcycle" length="2.2" accel="6" decel="10" sigma="1.0" maxSpeed="2"/>
+
+   
+   <flow id="3" type="motorcycle" begin="0" number="1" from="197670283" to="8604402" departLane="2"/>
+   <flow id="4" type="motorcycle" begin="0" number="1" from="197670283" to="8604402" departLane="0"/>
+   <flow id="5" type="motorcycle" begin="0" number="1" from="197670283" to="8604402" departLane="1"/>
+   <flow id="6" type="motorcycle" begin="0" number="1" from="197670283" to="8604402" departLane="3"/>
+
+   <flow id="1" type="car" begin="100" end="600" vehsPerHour="2500" from="197670283" to="8604402" departLane="random" departSpeed="max"/>
+   <flow id="2" type="bus" begin="100" end="600" vehsPerHour="2500" from="45770917" to="521010125" departLane="random" departSpeed="max"/> 
+  
+   
+
+    
+   
+ 
+<!--<flow id="carflow" type="car" begin="0" end="0" number="1" from="197670283" to="8604402" /> >-->
+   
+ 
+ <!--<flow id="carflow" type="car" begin="0" end="0" number="100" from="45770917" to="521010125"/>
+  <flow id="carflow1" type="car" begin="0" end="0" number="100" from="45770917" to="521010125"/>-->
+ <!--   <flow id="carflow" type="car" begin="0" end="500" vehsPerHour="2500" from="197670283" to="8604402" departLane="random"/>-->
+ <!--   <flow id="carflow1" type="car1" begin="0" end="500" vehsPerHour="2500" from="197670283" to="8604402" departLane="random"/>-->
+ <!--   <flow id="carflow2" type="car" begin="0" end="0" number="100" from="197670283" to="8604402"/>-->
+
+
+
+
+</routes>
+
+
+   
+

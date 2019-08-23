@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon May  6 20:20:00 2019 by Eclipse SUMO GUI Version 1.0.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/alex/Desktop/proj/scenario/map.net.xml"/>
+        <route-files value="/Users/alex/Desktop/proj/scenario/map.rou.xml"/>
+        <additional-files value="/Users/alex/Desktop/proj/scenario/map.poly.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="/Users/alex/Desktop/proj/scenario/summary.xml"/>
+        <tripinfo-output value="/Users/alex/Desktop/proj/scenario/tripinfo.xml"/>
+        <vehroute-output value="/Users/alex/Desktop/proj/scenario/vehroute.xml"/>
+        <stop-output value="/Users/alex/Desktop/proj/scenario/ptoutput.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="10000"/>
+        <step-length value="0.5"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="8813"/>
+        <num-clients value="1"/>
+    </traci_server>
+
+    <gui_only>
+        <tracker-interval value="0.5"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>
