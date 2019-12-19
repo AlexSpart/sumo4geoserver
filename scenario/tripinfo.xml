@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Mon May  6 20:20:00 2019 by Eclipse SUMO GUI Version 1.0.1
+<!-- generated on Πεμ 19 Δεκ 2019 10:58:12 πμ CET by Eclipse SUMO GUI Version v1_2_0+0959-4eae248
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="/Users/alex/Desktop/proj/scenario/map.net.xml"/>
-        <route-files value="/Users/alex/Desktop/proj/scenario/map.rou.xml"/>
-        <additional-files value="/Users/alex/Desktop/proj/scenario/map.poly.xml"/>
+        <net-file value="scenario/map.net.xml"/>
+        <route-files value="scenario/map.rou.xml"/>
+        <additional-files value="scenario/map.poly.xml"/>
     </input>
 
     <output>
-        <summary-output value="/Users/alex/Desktop/proj/scenario/summary.xml"/>
-        <tripinfo-output value="/Users/alex/Desktop/proj/scenario/tripinfo.xml"/>
-        <vehroute-output value="/Users/alex/Desktop/proj/scenario/vehroute.xml"/>
-        <stop-output value="/Users/alex/Desktop/proj/scenario/ptoutput.xml"/>
+        <summary-output value="scenario/summary.xml"/>
+        <tripinfo-output value="scenario/tripinfo.xml"/>
+        <vehroute-output value="scenario/vehroute.xml"/>
+        <stop-output value="scenario/ptoutput.xml"/>
     </output>
 
     <time>
@@ -22,8 +22,13 @@
         <step-length value="0.5"/>
     </time>
 
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
     <traci_server>
-        <remote-port value="8813"/>
+        <remote-port value="9999"/>
         <num-clients value="1"/>
     </traci_server>
 

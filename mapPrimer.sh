@@ -18,7 +18,7 @@ TAZ="$SCENARIO/taz"
 
 echo "Creating the network..."
 $SUMO_BINS/netconvert -c $SCENARIO/map.netccfg
-netconvert --osm-files $DATA/map.osm --lefthand --output.street-names -o map.net.xml
+netconvert --osm-files $DATA/map.osm --lefthand --output.street-names -o $SCENARIO/map.net.xml
 #polyconvert --xml-validation --net-file map.net.xml --osm-files map.osm --type-file typemap.xml -o map.poly.xml
 echo "Extracting the polygons..."
 $SUMO_BINS/polyconvert -c $SCENARIO/map.polycfg
@@ -88,5 +88,5 @@ $SUMO_BINS/polyconvert -c $SCENARIO/map.polycfg
 #python $SUMO_TOOLS/randomtrips.py -n $SCENARIO/map.net.xml -r map.rou.xml e 100 -l
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SUMO SIMULATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##
 #
-echo "Running SUMO..."
-$SUMO_BINS/sumo-gui -c $SCENARIO/map.sumocfg
+#echo "Running SUMO..."
+#$SUMO_BINS/sumo-gui -c $SCENARIO/map.sumocfg

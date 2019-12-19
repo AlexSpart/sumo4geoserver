@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Τρι 20 Αύγ 2019 02:10:10 μμ CEST by Eclipse SUMO GUI Version v1_2_0+0959-4eae248
+<!-- generated on Πεμ 19 Δεκ 2019 10:58:12 πμ CET by Eclipse SUMO GUI Version v1_2_0+0959-4eae248
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -11,7 +11,7 @@
 
     <output>
         <summary-output value="scenario/summary.xml"/>
-        <tripinfo-output value="tripinfo.xml"/>
+        <tripinfo-output value="scenario/tripinfo.xml"/>
         <vehroute-output value="scenario/vehroute.xml"/>
         <stop-output value="scenario/ptoutput.xml"/>
     </output>
