@@ -243,12 +243,6 @@ def iteratePassenger():
          """
 
 def trafficJamDetector():
-    infos = traci.vehicle.getAllSubscriptionResults()
-    with open("mobility_infos.txt", "a") as f:
-           json_infos = json.dumps(infos)  # use `json.loads` to do the reverse
-#           print(json_infos, file=f)
-           print >>f, json_infos         #python 2.7
-
     vehiclesSpeed = dict()
     vehiclesCoor = dict()
     vehiclesAngle = dict()
