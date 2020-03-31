@@ -2,11 +2,6 @@
 
 # exit on error
 set -e
-
-export SUMO_HOME="/home/alex/Desktop/sumo"
-export SUMO_BINS="$SUMO_HOME/bin"
-export SUMO_TOOLS="$SUMO_HOME/tools"
-
 ROOT="."
 DATA="$ROOT/data"
 SCRIPTS="$ROOT/scripts"
@@ -17,11 +12,11 @@ TAZ="$SCENARIO/taz"
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCENARIO GENERATION - TOPOLOGY ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##
 
 echo "Creating the network..."
-$SUMO_BINS/netconvert -c $SCENARIO/map.netccfg
+$SUMO_BIN/netconvert -c $SCENARIO/map.netccfg
 netconvert --osm-files $DATA/map.osm --lefthand --output.street-names -o $SCENARIO/map.net.xml
 #polyconvert --xml-validation --net-file map.net.xml --osm-files map.osm --type-file typemap.xml -o map.poly.xml
 echo "Extracting the polygons..."
-$SUMO_BINS/polyconvert -c $SCENARIO/map.polycfg
+$SUMO_BIN/polyconvert -c $SCENARIO/map.polycfg
 #
 #echo "Convert osm & net to Pickle..."
 #python3 $SCRIPTS/xml2pickle.py -i $DATA/sophia.osm -o $SCENARIO/osm.pkl

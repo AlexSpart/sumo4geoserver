@@ -34,12 +34,19 @@
    <vType id="motorcycle" vClass="motorcycle" length="2.2" accel="6" decel="10" sigma="1.0" maxSpeed="2"/>
 
    
-   <flow id="3" type="motorcycle" begin="0" number="1" from="197670283" to="8604402" departLane="2"/>
-   <flow id="4" type="motorcycle" begin="0" number="1" from="197670283" to="8604402" departLane="0"/>
-   <flow id="5" type="motorcycle" begin="0" number="1" from="197670283" to="8604402" departLane="1"/>
-   <flow id="6" type="motorcycle" begin="0" number="1" from="197670283" to="8604402" departLane="3"/>
+   <flow id="3" type="motorcycle" begin="10" number="1" from="197670283" to="8604402" departLane="2"/>
+   <flow id="4" type="motorcycle" begin="10" number="1" from="197670283" to="8604402" departLane="0"/>
+   <flow id="5" type="motorcycle" begin="10" number="1" from="197670283" to="8604402" departLane="1"/>
+   <flow id="6" type="motorcycle" begin="10" number="1" from="197670283" to="8604402" departLane="3"/>
 
-   <flow id="1" type="car" begin="100" end="600" vehsPerHour="2500" from="197670283" to="8604402" departLane="random" departSpeed="max"/>
+   <flow id="10" type="car" begin="100" number="1" from="197670283" to="8604402" departLane="random" departSpeed="max"/>
+   <flow id="20" type="car" begin="100" number="1" from="197670283" to="8604402" departLane="random" departSpeed="max"/>
+   <flow id="30" type="car" begin="100" number="1" from="197670283" to="8604402" departLane="random" departSpeed="max"/>
+   <flow id="40" type="car" begin="100" number="1" from="197670283" to="8604402" departLane="random" departSpeed="max"/>
+   <flow id="50" type="car" begin="100" number="1" from="197670283" to="8604402" departLane="random" departSpeed="max"/>
+
+ 
+ <!--  <flow id="1" type="car" begin="100" end="600" vehsPerHour="2500" from="197670283" to="8604402" departLane="random" departSpeed="max"/> -->
    <flow id="2" type="bus" begin="100" end="600" vehsPerHour="2500" from="45770917" to="521010125" departLane="random" departSpeed="max"/> 
   
    
