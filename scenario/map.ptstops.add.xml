@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Thu Dec 19 10:55:02 2019 by Eclipse SUMO netconvert Version v1_2_0+0959-4eae248
+<!-- generated on Thu Apr 16 18:26:08 2020 by Eclipse SUMO netconvert Version v1_5_0+0340-c5c5ce5a4d
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -46,6 +46,7 @@
 
     <report>
         <verbose value="true"/>
+        <aggregate-warnings value="5"/>
     </report>
 
 </configuration>
@@ -53,7 +54,10 @@
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <busStop id="-2256178773" name="Chapelle des Combes" lane="-216266537#0_0" startPos="1.21" endPos="8.71" friendlyPos="true" lines="1"/>
+    <busStop id="-331098089" name="Chapelle des Combes" lane="-216460226#1_0" startPos="0.00" endPos="11.94" friendlyPos="true" lines="19"/>
     <busStop id="1595550267" name="Centre Commercial" lane="146282151_0" startPos="7.78" endPos="22.78" friendlyPos="true" lines="1"/>
+    <busStop id="2428081786" name="Nova Antipolis" lane="211033809#0_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="1"/>
     <busStop id="25369279" name="Centre Commercial" lane="216266537#6_0" startPos="0.00" endPos="5.63" friendlyPos="true" lines="1 9"/>
+    <busStop id="331098084" name="Chapelle des Combes" lane="42428552#1_0" startPos="33.14" endPos="48.14" friendlyPos="true" lines="19"/>
     <busStop id="6135946385" lane="4635998#0_0" startPos="0.00" endPos="11.17" friendlyPos="true"/>
 </additional>
