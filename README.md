@@ -12,7 +12,7 @@ Install this version of [v2xmanager](https://gitlab.eurecom.fr/a-team/geoserverb
 
 #### Setup SUMO traffic scenario:
 
-1) Download a map from [openstreetmap](openstreetmap.org). Name it map.osm and save it in /data directory
+1) Download a map from [OpenStreetMap]((https://openstreetmap.org). Name it map.osm and save it in /data directory
  
 2) Generate the scenario
 ```bash 
