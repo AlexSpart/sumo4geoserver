@@ -40,9 +40,7 @@ def run():
     step = 0
     my_data = {}
     vehiclesInSimulation = list
-  
-#    CLEAR THE FILE FROM PREVIOUS INPUTS
-    open("close_vehicles.txt", "w").close()
+ 
 
     while traci.simulation.getMinExpectedNumber() > 0:
    #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Dynamic vehicles_array list ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -58,6 +56,8 @@ def run():
 	iteratePassenger()
     	trafficJamDetector()
 
+        #    CLEAR THE FILE FROM PREVIOUS INPUTS
+        #open("close_vehicles.txt", "w").close()
 	#detectCloseVehicles()
         traci.simulationStep()
         step += 1
